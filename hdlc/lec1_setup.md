@@ -56,9 +56,21 @@
         ```
 1. Install PyCharm
 
-1. Create a Project in PyCharm
+1. Create a Project in PyCharm based on Conda Environment
 
-1. Run PyThon Code in PyCharm
-    - save and run python code (.py)
-    - save and run python code (test2.py)
-    run python code in console mode
+1. Run PyThon Code in PyCharm    
+    - create a python file(test.py)
+    - run the python code in Anaconda Prompt
+    - run the python code in PyCharm
+    - exectue line in PyCharm
+    
+1. Install PyThon Libraries: matplotlib, h5py
+    - install library in Anaconda Prompt
+        ```text
+        activate tc
+        conda install h5py matplotlib (pip install h5py matplotlib)
+        conda uninstall h5py (pip uninstall h5py)        
+        ```
+        
+    
+    
