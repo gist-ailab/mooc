@@ -7,11 +7,11 @@
 1. Create an Environment via **Anaconda Prompt (administrative)**
      ```bash
     conda env list
-    conda create --name test (conda create -n test)
+    conda create --name test
     conda env list
     activate test
     deactivate
-    conda env remove test
+    conda env remove -n test
     ```
 
 1. Install PyThon in Anaconda Environment via **Anaconda Prompt (administrative)**
@@ -26,7 +26,7 @@
     ```
 
 1. Run PyThon Code via **Anaconda Prompt (administrative)**
-    - run python code in console mode
+    - run python code in console mode via **Anaconda Prompt (administrative)**
         ```bash
         activate practice
         python
@@ -34,33 +34,42 @@
         
         ```python
         print('hello world')
-        import torch
-        tc_version = torch.__version__
-        print('torch version =',tc_version)      
+        
         ```
-    - save and run python code (test.py) via **Anaconda Prompt (administrative)**
-        - create a file named "test.py" containing the python code below
+    - save and run python code (hello.py) via **Anaconda Prompt (administrative)**
+        - create a file named "c:\PycharmProjects\example\exmple_sum.py" containing the python code below
             ```python
-            import torch
-            print('hello world')
-            tc_version = torch.__version__
-            print('torch version =',tc_version) 
+            n1, n2 = 1.7, 1.5
+            sum = n1 + n2
+            print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
+            print('The sum of {} and {:} is {:}'.format(n1, n2, sum))
+            print('The sum of {:.0f} and {:06.2f} is {:2.04f}'.format(n1, n2, sum))
             ```
-        - run "test.py" in Anaconda Prompt 
+        - run "exmple_sum.py" in Anaconda Prompt 
             ```text
-            dir
-            cd Desktop
-            python test.py
+            python c:\PycharmProjects\example\exmple_sum.py
             ```
 1. Install **PyCharm (administrative)**
 
-1. Create "Practice" Project based on Conda Environment via **PyCharm (administrative)**
+1. Create "practice" Project based on Conda Environment via **PyCharm (administrative)**
 
 1. Run PyThon Code in **PyCharm (administrative)**
-    - create a python file(example_print.py)
-    - run the python code in PyCharm
-    - exectue line in PyCharm
-
+    - create a python file (example_print.py)
+    ```python
+        print('hello world')
+        n1, n2 = 1.7, 1.5
+        sum = n1 + n2
+        print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
+        print('The sum of {} and {:} is {:}'.format(n1, n2, sum))
+        print('The sum of {:.0f} and {:06.2f} is {:2.04f}'.format(n1, n2, sum))
+        ```
+    - run the python code via **PyCharm (administrative)**
+    - exectue selected line in console mode via **PyCharm (administrative)**
+    - exectue additional line in console mode via **PyCharm (administrative)**
+        ```python
+        square_1 = n1**2
+        square_2 = n1*n1
+        ```
 1. Install PyThon Libraries: matplotlib, scipy, h5py
     - install libraries via **Anaconda Prompt (administrative)**
         ```bash
@@ -72,12 +81,20 @@
         - install and remove h5py via Pip Package Manager
         - install h5py via Conda Package Manager
             
-    - create and run a python file(example_plot.py)
-        - option scientific view (for each project)
-    
-    - create and run a python file(example_fft.py)
-        
-1. Create "PyTorch" Project based on a New Conda Environment named "tc" via **PyCharm (administrative)**
+    - create and run a python file (example_plot.py)
+        ```python
+        import torch
+        print(torch.__version__)
+        print(torch.tensor([[1., -1.], [1., -1.]]))
+        ```        
+   
+    - create and run a python file (example_fft.py)
+        ```python
+        import torch
+        print(torch.__version__)
+        print(torch.tensor([[1., -1.], [1., -1.]]))
+        ```        
+1. Create "PyTorch" Project based on a New Conda Environment (tc) via **PyCharm (administrative)**
     - install PyTorch via **Anaconda Prompt (administrative)**
         ```bash
         activate tc
