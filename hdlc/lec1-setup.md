@@ -1,6 +1,8 @@
 1. Download Setup Files
-    - Anaconda :: Windows 64 bit (https://www.anaconda.com/)
-    - PyCharm :: Windows Community Version (https://www.jetbrains.com/pycharm/)
+    - PyThon: Anaconda Windows 64 bit Version (https://www.anaconda.com/)
+    - PyCharm: Windows Community Version (https://www.jetbrains.com/pycharm/)
+    - PyTorch: PyTorch 1.1 CPU Version (https://pytorch.org/)
+
 
 1. Install **Anaconda Prompt (administrative mode)**
     - set Anaconda Prompt (administrative mode) as default    
