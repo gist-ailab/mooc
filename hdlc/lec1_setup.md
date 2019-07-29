@@ -4,7 +4,7 @@
 
 1. Install Anaconda (administrative)
 
-1. Create an Environment in Anaconda (administrative)
+1. Create an Environment via Anaconda Prompt (administrative)
      ```bash
     conda env list
     conda create --name test (conda create -n test)
@@ -14,7 +14,7 @@
     conda env remove test
     ```
 
-1. Install PyThon and PyTorch in Anaconda Environment
+1. Install PyThon and PyTorch in Anaconda Environment via Anaconda Prompt (administrative)
     ```bash
     conda create -n practice
     activate practice
@@ -25,7 +25,7 @@
     exit
     ```
 
-1. Run PyThon Code in Anaconda (administrative)
+1. Run PyThon Code via Anaconda Prompt (administrative)
     - run python code in console mode
         ```bash
         activate practice
@@ -38,25 +38,23 @@
         tc_version = torch.__version__
         print('torch version =',tc_version)      
         ```
-    - save and run python code (test.py) in Anaconda Prompt 
-        ```bash
-        notepad => save "test.py"
-        ```
-        
-        ```python
-        import torch
-        print('hello world')
-        tc_version = torch.__version__
-        print('torch version =',tc_version) 
-        ```
-        ```text
-        dir
-        cd Desktop
-        python test.py
-        ```
+    - save and run python code (test.py) via Anaconda Prompt 
+        - create a file named "test.py" containing the python code below
+            ```python
+            import torch
+            print('hello world')
+            tc_version = torch.__version__
+            print('torch version =',tc_version) 
+            ```
+        - run "test.py" in Anaconda Prompt 
+            ```text
+            dir
+            cd Desktop
+            python test.py
+            ```
 1. Install PyCharm (administrative)
 
-1. Create "Practice" Project in PyCharm (administrative) based on Conda Environment
+1. Create "Practice" Project based on Conda Environment via PyCharm (administrative) 
 
 1. Run PyThon Code in PyCharm    
     - create a python file(example_print.py)
@@ -65,29 +63,30 @@
     - exectue line in PyCharm
 
 1. Install PyThon Libraries: matplotlib, scipy, h5py
-    - install libraries in Anaconda Prompt (administrative)
+    - install libraries via Anaconda Prompt (administrative)
         ```bash
         activate practice
         conda install matplotlib scipy (pip install h5py matplotlib)
         conda uninstall h5py (pip uninstall h5py)        
         ```
-    - install libraries in PyCharm (administrative)
+    - install libraries via PyCharm (administrative)
         - install and remove h5py via Pip Package Manager
         - install h5py via Conda Package Manager
             
     - create and run a python file(example_plot.py)
         - option scientific view (for each project)
+    
     - create and run a python file(example_fft.py)
         
 1. Create "PyTorch" Project in PyCharm (administrative) based on New Conda Environment named "tc"
-    - install PyTorch in Anaconda Environment
+    - install PyTorch via `Anaconda Prompt` (administrative)
         ```bash
         activate tc
         conda list
         conda install pytorch-cpu torchvision-cpu -c pytorch
         conda list
         ```    
-    - install libraries (matplotlib, scify, h5py) in PyCharm (administrative) via Conda Package Manager
+    - install libraries (matplotlib, scify, h5py) via Conda Package Manager in `PyCharm` (administrative) 
     - create and run (example_torch.py)
         ```python
         import torch
