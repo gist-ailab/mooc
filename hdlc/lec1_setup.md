@@ -5,7 +5,7 @@
 1. Install Anaconda in Windows 10 (64-Bit)
 
 1. Create an Environment in Anaconda
-     ```python
+     ```text
     conda env list
     conda create --name test
     conda create -n test
@@ -16,7 +16,7 @@
     ```
 
 1. Install PyThon in Anaconda Environment
-    ```python
+    ```text
     conda create -n tc
     activate tc
     conda list
