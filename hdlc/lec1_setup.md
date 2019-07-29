@@ -7,37 +7,40 @@
 1. Create an Environment in Anaconda
      ```text
     conda env list
-    conda create --name test
-    conda create -n test
+    conda create --name test (conda create -n test)
     conda env list
     activate test
     deactivate
     conda env remove test
     ```
 
-1. Install PyThon in Anaconda Environment
+1. Install PyThon and PyTorch in Anaconda Environment
     ```text
     conda create -n tc
     activate tc
     conda list
     conda install python
     conda list
+    conda install pytorch-cpu torchvision-cpu -c pytorch
+    deactivate
     ```
 
 1. Run PyThon Code in Anaconda    
     - run python code in console mode
-      ```python
-      >>> print('hello world')
-      hello world
-      >>> number = 7
-      >>> print('lucky',number.__str__())
-      lucky 7
-      ```
-      
+    activate tc
+    ```python
+    print('hello world')
+    import torch
+    tc_version = torch.__version__
+    print('torch version =',tc_version)      
+    ```      
     - save and run python code (test.py) in Anaconda Prompt 
-      ```python
-      print('hello world')
-      ```
+    ```python
+    import torch
+    print('hello world')
+    tc_version = torch.__version__
+    print('torch version =',tc_version) 
+    ```
 
 1. Install PyCharm
 
