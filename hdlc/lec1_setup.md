@@ -27,20 +27,20 @@
 
 1. Run PyThon Code in Anaconda    
     - run python code in console mode
-    activate tc
-    ```python
-    print('hello world')
-    import torch
-    tc_version = torch.__version__
-    print('torch version =',tc_version)      
-    ```      
+        activate tc
+        ```python
+        print('hello world')
+        import torch
+        tc_version = torch.__version__
+        print('torch version =',tc_version)      
+        ```      
     - save and run python code (test.py) in Anaconda Prompt 
-    ```python
-    import torch
-    print('hello world')
-    tc_version = torch.__version__
-    print('torch version =',tc_version) 
-    ```
+        ```python
+        import torch
+        print('hello world')
+        tc_version = torch.__version__
+        print('torch version =',tc_version) 
+        ```
 
 1. Install PyCharm
 
