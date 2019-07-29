@@ -109,6 +109,7 @@
         a = 0.7 * np.sin(2 * np.pi * f[0] * t) + 0.5 * np.sin(2 * np.pi * f[1] * t)
         figure, axis = plt.subplots()
         axis.plot(t, a)
+        axis.set_title('Signal')
         axis.set_xlabel('Time [s]')
         axis.set_ylabel('Amplitude')
         axis.grid()
