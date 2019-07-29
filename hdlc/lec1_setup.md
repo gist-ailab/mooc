@@ -2,9 +2,10 @@
     - Anaconda :: Windows 64 bit (https://www.anaconda.com/)
     - PyCharm :: Windows Community Version (https://www.jetbrains.com/pycharm/)
 
-1. Install Anaconda (administrative)
+1. Install **Anaconda Prompt (administrative mode)**
+    - set Anaconda Prompt (administrative mode) as default    
 
-1. Create an Environment via **Anaconda Prompt (administrative)**
+1. Create an Environment via **Anaconda Prompt**
      ```bash
     conda env list
     conda create --name test
@@ -14,7 +15,7 @@
     conda env remove -n test
     ```
 
-1. Install PyThon in Anaconda Environment via **Anaconda Prompt (administrative)**
+1. Install PyThon in Anaconda Environment via **Anaconda Prompt**
     ```bash
     conda create -n practice
     activate practice
@@ -25,8 +26,8 @@
     exit
     ```
 
-1. Run PyThon Code via **Anaconda Prompt (administrative)**
-    - run python code in console mode via **Anaconda Prompt (administrative)**
+1. Run PyThon Code via **Anaconda Prompt**
+    - run python code in console mode via **Anaconda Prompt**
         ```bash
         activate practice
         python
@@ -40,8 +41,8 @@
         print('The sum of {} and {} is {}'.format(n1, n2, sum))
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
-    - save and run python code (ex_sum.py) via **Anaconda Prompt (administrative)**
-        - create a python file (c:\PycharmProjects\example\ex_sum.py) containing the python code below
+    - save and run python code (sum.py) via **Anaconda Prompt**
+        - create a python file (c:\PycharmProjects\test\sum.py) containing the python code below
             ```python
             n1, n2 = 1.7, 1.5
             sum = n1 + n2
@@ -49,16 +50,17 @@
             print('The sum of {} and {} is {}'.format(n1, n2, sum))
             print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
             ```
-        - run "ex_sum.py" via **Anaconda Prompt (administrative)**
+        - run a python file (ex_sum.py) via **Anaconda Prompt (administrative)**
             ```text
-            python c:\PycharmProjects\example\ex_sum.py
+            python c:\PycharmProjects\test\sum.py
             ```
             
-1. Install **PyCharm (administrative)**
+1. Install **PyCharm (administrative mode)**
+    - set PyCharm (administrative mode) as default    
 
-1. Create "practice" Project based on Conda Environment via **PyCharm (administrative)**
+1. Create a New Project (example) based on Conda Environment (practice) via **PyCharm**
 
-1. Run PyThon Code in **PyCharm (administrative)**
+1. Run PyThon Code in **PyCharm**
     - create a python file (ex_sum.py)
         ```python
         print('hello world')
@@ -68,16 +70,16 @@
         print('The sum of {} and {} is {}'.format(n1, n2, sum))
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
-    - run the python code via **PyCharm (administrative)**
+    - run the python code via **PyCharm**
         - Ctrl + Shift + F10
         - Mouse Right Click => Run 'ex_sum.py'
-    - exectue selected lines in console via **PyCharm (administrative)**
+    - exectue selected lines in console via **PyCharm**
         - Select codes => Alt + Shift + e
         - Mouse Right Click => Exectue selection in console
-    - exectue a line in console via **PyCharm (administrative)**
+    - exectue a line in console via **PyCharm**
         - Alt + Shift + e
         - Mouse Right Click => Exectue selection in console)
-    - exectue additional line and check variables in console mode via **PyCharm (administrative)**
+    - exectue additional line and check variables in console mode via **PyCharm**
         ```python
         n1 = 1.2
         square_1 = n1**2
@@ -85,40 +87,40 @@
         ```
     
 1. Install PyThon Libraries: matplotlib, scipy, h5py
-    - install libraries via **Anaconda Prompt (administrative)**
+    - install libraries via **Anaconda Prompt**
         ```bash
         activate practice
         conda install matplotlib scipy (pip install h5py matplotlib)
         conda uninstall h5py (pip uninstall h5py)        
         ```
-    - install libraries via **PyCharm (administrative)**
+    - install libraries via **PyCharm**
         - install and remove h5py via Pip Package Manager
         - install h5py via Conda Package Manager
             
-    - create and run a python file (example_plot.py)
+    - create and run a python file (ex_plot.py)
         ```python
         import torch
         print(torch.__version__)
         print(torch.tensor([[1., -1.], [1., -1.]]))
         ```        
    
-    - create and run a python file (example_fft.py)
+    - create and run a python file (ex_fft.py)
         ```python
         import torch
         print(torch.__version__)
         print(torch.tensor([[1., -1.], [1., -1.]]))
         ```        
         
-1. Create "PyTorch" Project based on a New Conda Environment (tc) via **PyCharm (administrative)**
-    - install PyTorch via **Anaconda Prompt (administrative)**
+1. Create "PyTorch" Project based on a New Conda Environment (tc) via **PyCharm**
+    - install PyTorch via **Anaconda Prompt**
         ```bash
         activate tc
         conda list
         conda install pytorch-cpu torchvision-cpu -c pytorch
         conda list
         ```    
-    - install libraries (matplotlib, scify, h5py) via Conda Package Manager in **PyCharm (administrative)**
-    - create and run (example_torch.py) via **PyCharm (administrative)**
+    - install libraries (matplotlib, scify, h5py) via Conda Package Manager in **PyCharm**
+    - create and run (example_torch.py) via **PyCharm**
         ```python
         import torch
         print(torch.__version__)
