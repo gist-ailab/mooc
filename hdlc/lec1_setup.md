@@ -27,6 +27,7 @@
 
 1. Run PyThon Code in Anaconda    
     - run python code in console mode
+        
         activate tc
         ```python
         print('hello world')
