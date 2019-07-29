@@ -31,6 +31,7 @@
         activate tc
         python
         ```
+        
             ```python
             print('hello world')
             import torch
@@ -39,8 +40,7 @@
             ```      
     - save and run python code (test.py) in Anaconda Prompt 
         ```text
-        notepad
-        save "test.py"
+        notepad => save "test.py"
         ```
             ```python
             import torch
