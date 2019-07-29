@@ -41,7 +41,7 @@
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
     - save and run python code (ex_sum.py) via **Anaconda Prompt (administrative)**
-        - create a file named "c:\PycharmProjects\example\ex_sum.py" containing the python code below
+        - create a python file (c:\PycharmProjects\example\ex_sum.py) containing the python code below
             ```python
             n1, n2 = 1.7, 1.5
             sum = n1 + n2
@@ -49,7 +49,7 @@
             print('The sum of {} and {} is {}'.format(n1, n2, sum))
             print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
             ```
-        - run "ex_sum.py" in Anaconda Prompt 
+        - run "ex_sum.py" via **Anaconda Prompt (administrative)**
             ```text
             python c:\PycharmProjects\example\ex_sum.py
             ```
