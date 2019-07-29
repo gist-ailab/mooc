@@ -40,8 +40,8 @@
         print('The sum of {} and {} is {}'.format(n1, n2, sum))
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
-    - save and run python code (ex_hello.py) via **Anaconda Prompt (administrative)**
-        - create a file named "c:\PycharmProjects\example\ex_hello.py" containing the python code below
+    - save and run python code (ex_sum.py) via **Anaconda Prompt (administrative)**
+        - create a file named "c:\PycharmProjects\example\ex_sum.py" containing the python code below
             ```python
             n1, n2 = 1.7, 1.5
             sum = n1 + n2
@@ -49,9 +49,9 @@
             print('The sum of {} and {} is {}'.format(n1, n2, sum))
             print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
             ```
-        - run "exmple_sum.py" in Anaconda Prompt 
+        - run "ex_sum.py" in Anaconda Prompt 
             ```text
-            python c:\PycharmProjects\example\ex_hello.py
+            python c:\PycharmProjects\example\ex_sum.py
             ```
             
 1. Install **PyCharm (administrative)**
@@ -59,8 +59,8 @@
 1. Create "practice" Project based on Conda Environment via **PyCharm (administrative)**
 
 1. Run PyThon Code in **PyCharm (administrative)**
-    - create a python file (ex_print.py)
-    ```python
+    - create a python file (ex_sum.py)
+        ```python
         print('hello world')
         n1, n2 = 1.7, 1.5
         sum = n1 + n2
@@ -70,7 +70,7 @@
         ```
     - run the python code via **PyCharm (administrative)**
         - Ctrl + Shift + F10
-        - Mouse Right Click => Run 'ex_print.py'
+        - Mouse Right Click => Run 'ex_sum.py'
     - exectue selected lines in console via **PyCharm (administrative)**
         - Select codes => Alt + Shift + e
         - Mouse Right Click => Exectue selection in console
