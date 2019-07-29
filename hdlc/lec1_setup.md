@@ -34,42 +34,56 @@
         
         ```python
         print('hello world')
-        
+        n1, n2 = 1.7, 1.5
+        sum = n1 + n2
+        print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
+        print('The sum of {} and {} is {}'.format(n1, n2, sum))
+        print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
-    - save and run python code (hello.py) via **Anaconda Prompt (administrative)**
-        - create a file named "c:\PycharmProjects\example\exmple_sum.py" containing the python code below
+    - save and run python code (ex_hello.py) via **Anaconda Prompt (administrative)**
+        - create a file named "c:\PycharmProjects\example\ex_hello.py" containing the python code below
             ```python
             n1, n2 = 1.7, 1.5
             sum = n1 + n2
             print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
-            print('The sum of {} and {:} is {:}'.format(n1, n2, sum))
-            print('The sum of {:.0f} and {:06.2f} is {:2.04f}'.format(n1, n2, sum))
+            print('The sum of {} and {} is {}'.format(n1, n2, sum))
+            print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
             ```
         - run "exmple_sum.py" in Anaconda Prompt 
             ```text
-            python c:\PycharmProjects\example\exmple_sum.py
+            python c:\PycharmProjects\example\ex_hello.py
             ```
+            
 1. Install **PyCharm (administrative)**
 
 1. Create "practice" Project based on Conda Environment via **PyCharm (administrative)**
 
 1. Run PyThon Code in **PyCharm (administrative)**
-    - create a python file (example_print.py)
+    - create a python file (ex_print.py)
     ```python
         print('hello world')
         n1, n2 = 1.7, 1.5
         sum = n1 + n2
         print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
-        print('The sum of {} and {:} is {:}'.format(n1, n2, sum))
-        print('The sum of {:.0f} and {:06.2f} is {:2.04f}'.format(n1, n2, sum))
+        print('The sum of {} and {} is {}'.format(n1, n2, sum))
+        print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
     - run the python code via **PyCharm (administrative)**
-    - exectue selected line in console mode via **PyCharm (administrative)**
-    - exectue additional line in console mode via **PyCharm (administrative)**
+        - Ctrl + Shift + F10
+        - Mouse Right Click => Run 'ex_print.py'
+    - exectue selected lines in console via **PyCharm (administrative)**
+        - Select codes => Alt + Shift + e
+        - Mouse Right Click => Exectue selection in console
+    - exectue a line in console via **PyCharm (administrative)**
+        - Alt + Shift + e
+        - Mouse Right Click => Exectue selection in console)
+    - exectue additional line and check variables in console mode via **PyCharm (administrative)**
         ```python
+        n1 = 1.2
         square_1 = n1**2
         square_2 = n1*n1
         ```
+    
 1. Install PyThon Libraries: matplotlib, scipy, h5py
     - install libraries via **Anaconda Prompt (administrative)**
         ```bash
@@ -94,6 +108,7 @@
         print(torch.__version__)
         print(torch.tensor([[1., -1.], [1., -1.]]))
         ```        
+        
 1. Create "PyTorch" Project based on a New Conda Environment (tc) via **PyCharm (administrative)**
     - install PyTorch via **Anaconda Prompt (administrative)**
         ```bash
