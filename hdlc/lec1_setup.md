@@ -99,16 +99,55 @@
             
     - create and run a python file (ex_plot.py)
         ```python
-        import torch
-        print(torch.__version__)
-        print(torch.tensor([[1., -1.], [1., -1.]]))
+        import numpy as np
+        import matplotlib.pyplot as plt
+        import h5py
+
+        f = [3, 5]  # Hz
+        f_sampling = 50
+        t = np.linspace(0, 2, 2 * f_sampling)
+        a = 0.7 * np.sin(2 * np.pi * f[0] * t) + 0.5 * np.sin(2 * np.pi * f[1] * t)
+        figure, axis = plt.subplots()
+        axis.plot(t, a)
+        axis.set_xlabel('Time [s]')
+        axis.set_ylabel('Amplitude')
+        axis.grid()
+        plt.show()
+
+        data_file = 'data.h5'
+        with h5py.File(data_file, 'w') as f:
+            f.create_dataset('f_sampling', data=f_sampling)
+            f.create_dataset('t', data=t)
+            f.create_dataset('a', data=a)
+
         ```        
    
     - create and run a python file (ex_fft.py)
         ```python
-        import torch
-        print(torch.__version__)
-        print(torch.tensor([[1., -1.], [1., -1.]]))
+        import os, h5py
+        import numpy as np
+        import matplotlib.pyplot as plt
+        from scipy import fftpack
+
+        data_file = 'data.h5'
+        if os.path.exists(data_file):
+            with h5py.File(data_file, 'r') as f:
+                print(f.keys())
+                f_sampling = f['f_sampling'][()]
+                t, a = f['t'][()], f['a'][()]
+            m = fftpack.fft(a) / len(a) * 2
+
+            frequency = fftpack.fftfreq(len(a)) * f_sampling
+            figure, axis = plt.subplots()
+
+            axis.stem(frequency, np.abs(m))
+            axis.set_title('Frequency Spectrum')
+            axis.set_xlabel('Frequency [Hz]')
+            axis.set_ylabel('Magnitude')
+            axis.set_xlim(0, 8)
+            axis.set_ylim(0, 1)
+            axis.grid()
+            plt.show()
         ```        
         
 1. Create "PyTorch" Project based on a New Conda Environment (tc) via **PyCharm**
