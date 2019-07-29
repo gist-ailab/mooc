@@ -38,7 +38,7 @@
         tc_version = torch.__version__
         print('torch version =',tc_version)      
         ```
-    - save and run python code (test.py) via Anaconda Prompt 
+    - save and run python code (test.py) via **Anaconda Prompt (administrative)**
         - create a file named "test.py" containing the python code below
             ```python
             import torch
