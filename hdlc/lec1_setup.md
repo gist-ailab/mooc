@@ -32,22 +32,22 @@
         python
         ```
         
-            ```python
-            print('hello world')
-            import torch
-            tc_version = torch.__version__
-            print('torch version =',tc_version)      
-            ```      
+```python
+print('hello world')
+import torch
+tc_version = torch.__version__
+print('torch version =',tc_version)      
+```
     - save and run python code (test.py) in Anaconda Prompt 
         ```text
         notepad => save "test.py"
         ```
-            ```python
-            import torch
-            print('hello world')
-            tc_version = torch.__version__
-            print('torch version =',tc_version) 
-            ```
+```python
+import torch
+print('hello world')
+tc_version = torch.__version__
+print('torch version =',tc_version) 
+```
         ```text
         dir
         cd Desktop
