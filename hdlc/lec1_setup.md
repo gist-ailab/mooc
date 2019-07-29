@@ -75,11 +75,7 @@
         - install scipy via Conda Package Manager
         - install scipy via Pip Package Manager
         
-1. 
-Matplotlib Tutorials: [https://matplotlib.org/tutorials/index.html]:https://matplotlib.org/tutorials/index.html
-
-SciPy Tutorials
-[https://docs.scipy.org/doc/scipy/reference/tutorial/]:https://docs.scipy.org/doc/scipy/reference/tutorial/
-
-h5py Tutorials
-http://docs.h5py.org/en/stable/quick.html
+1. Tutorials
+    - Matplotlib Tutorials (https://matplotlib.org/tutorials/index.html)
+    - SciPy Tutorials (https://docs.scipy.org/doc/scipy/reference/tutorial/)
+    - h5py Tutorials (http://docs.h5py.org/en/stable/quick.html)
