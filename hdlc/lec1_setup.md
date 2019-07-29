@@ -4,7 +4,7 @@
 
 1. Install Anaconda (administrative)
 
-1. Create an Environment via Anaconda Prompt (administrative)
+1. Create an Environment via **Anaconda Prompt (administrative)**
      ```bash
     conda env list
     conda create --name test (conda create -n test)
@@ -14,7 +14,7 @@
     conda env remove test
     ```
 
-1. Install PyThon and PyTorch in Anaconda Environment via Anaconda Prompt (administrative)
+1. Install PyThon in Anaconda Environment via **Anaconda Prompt (administrative)**
     ```bash
     conda create -n practice
     activate practice
@@ -25,7 +25,7 @@
     exit
     ```
 
-1. Run PyThon Code via Anaconda Prompt (administrative)
+1. Run PyThon Code via **Anaconda Prompt (administrative)**
     - run python code in console mode
         ```bash
         activate practice
@@ -52,24 +52,23 @@
             cd Desktop
             python test.py
             ```
-1. Install PyCharm (administrative)
+1. Install **PyCharm (administrative)**
 
-1. Create "Practice" Project based on Conda Environment via PyCharm (administrative) 
+1. Create "Practice" Project based on Conda Environment via **PyCharm (administrative)**
 
-1. Run PyThon Code in PyCharm    
+1. Run PyThon Code in **PyCharm (administrative)**
     - create a python file(example_print.py)
-    - run the python code in Anaconda Prompt
     - run the python code in PyCharm
     - exectue line in PyCharm
 
 1. Install PyThon Libraries: matplotlib, scipy, h5py
-    - install libraries via Anaconda Prompt (administrative)
+    - install libraries via **Anaconda Prompt (administrative)**
         ```bash
         activate practice
         conda install matplotlib scipy (pip install h5py matplotlib)
         conda uninstall h5py (pip uninstall h5py)        
         ```
-    - install libraries via PyCharm (administrative)
+    - install libraries via **PyCharm (administrative)**
         - install and remove h5py via Pip Package Manager
         - install h5py via Conda Package Manager
             
@@ -78,16 +77,16 @@
     
     - create and run a python file(example_fft.py)
         
-1. Create "PyTorch" Project in PyCharm (administrative) based on New Conda Environment named "tc"
-    - install PyTorch via `Anaconda Prompt` (administrative)
+1. Create "PyTorch" Project based on a New Conda Environment named "tc" via **PyCharm (administrative)**
+    - install PyTorch via **Anaconda Prompt (administrative)**
         ```bash
         activate tc
         conda list
         conda install pytorch-cpu torchvision-cpu -c pytorch
         conda list
         ```    
-    - install libraries (matplotlib, scify, h5py) via Conda Package Manager in `PyCharm` (administrative) 
-    - create and run (example_torch.py)
+    - install libraries (matplotlib, scify, h5py) via Conda Package Manager in **PyCharm (administrative)**
+    - create and run (example_torch.py) via **PyCharm (administrative)**
         ```python
         import torch
         print(torch.__version__)
