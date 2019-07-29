@@ -2,7 +2,7 @@
     - Anaconda :: Windows 64 bit (https://www.anaconda.com/)
     - PyCharm :: Windows Community Version (https://www.jetbrains.com/pycharm/)
 
-1. Install Anaconda in Windows 10 (64-Bit)
+1. Install Anaconda (administrative)
 
 1. Create an Environment in Anaconda (administrative)
      ```text
@@ -54,9 +54,9 @@
         cd Desktop
         python test.py
         ```
-1. Install PyCharm
+1. Install PyCharm (administrative)
 
-1. Create a Project in PyCharm based on Conda Environment
+1. Create a Project in PyCharm (administrative) based on Conda Environment
 
 1. Run PyThon Code in PyCharm    
     - create a python file(test.py)
@@ -71,7 +71,7 @@
         conda install h5py matplotlib (pip install h5py matplotlib)
         conda uninstall h5py (pip uninstall h5py)        
         ```
-    - install libraries in PyCharm
+    - install libraries in PyCharm (administrative)
         - install scipy via Conda Package Manager
         - install scipy via Pip Package Manager
     
