@@ -4,7 +4,7 @@
 
 1. Install Anaconda in Windows 10 (64-Bit)
 
-1. Create an Environment in Anaconda
+1. Create an Environment in Anaconda (administrative)
      ```text
     conda env list
     conda create --name test (conda create -n test)
@@ -25,7 +25,7 @@
     deactivate
     ```
 
-1. Run PyThon Code in Anaconda    
+1. Run PyThon Code in Anaconda (administrative)
     - run python code in console mode
         ```text
         activate tc
@@ -64,13 +64,15 @@
     - run the python code in PyCharm
     - exectue line in PyCharm
     
-1. Install PyThon Libraries: matplotlib, h5py
-    - install library in Anaconda Prompt
+1. Install PyThon Libraries: matplotlib, scipy, h5py
+    - install libraries in Anaconda Prompt (administrative)
         ```text
         activate tc
         conda install h5py matplotlib (pip install h5py matplotlib)
         conda uninstall h5py (pip uninstall h5py)        
         ```
-        
+    - install libraries in PyCharm
+        - install scipy via Conda Package Manager
+        - install scipy via Pip Package Manager
     
     
