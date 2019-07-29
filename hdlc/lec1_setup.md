@@ -150,16 +150,17 @@
             plt.show()
         ```        
         
-1. Create "PyTorch" Project based on a New Conda Environment (tc) via **PyCharm**
+1. Create a New Project (PyTorch) based on a New Conda Environment (tc) via **PyCharm**
     - install PyTorch via **Anaconda Prompt**
         ```bash
         activate tc
         conda list
         conda install pytorch-cpu torchvision-cpu -c pytorch
+        conda install matplotlib scify h5py
         conda list
+        exit
         ```    
-    - install libraries (matplotlib, scify, h5py) via Conda Package Manager in **PyCharm**
-    - create and run (example_torch.py) via **PyCharm**
+    - create and run (ex_torch.py) via **PyCharm**
         ```python
         import torch
         print(torch.__version__)
