@@ -5,7 +5,7 @@
 1. Install Anaconda (administrative)
 
 1. Create an Environment in Anaconda (administrative)
-     ```text
+     ```bash
     conda env list
     conda create --name test (conda create -n test)
     conda env list
@@ -15,7 +15,7 @@
     ```
 
 1. Install PyThon and PyTorch in Anaconda Environment
-    ```text
+    ```bash
     conda create -n tc
     activate tc
     conda list
@@ -27,7 +27,7 @@
 
 1. Run PyThon Code in Anaconda (administrative)
     - run python code in console mode
-        ```text
+        ```bash
         activate tc
         python
         ```
@@ -39,7 +39,7 @@
         print('torch version =',tc_version)      
         ```
     - save and run python code (test.py) in Anaconda Prompt 
-        ```text
+        ```bash
         notepad => save "test.py"
         ```
         
@@ -66,7 +66,7 @@
     
 1. Install PyThon Libraries: matplotlib, scipy, h5py
     - install libraries in Anaconda Prompt (administrative)
-        ```text
+        ```bash
         activate tc
         conda install h5py matplotlib (pip install h5py matplotlib)
         conda uninstall h5py (pip uninstall h5py)        
@@ -74,5 +74,12 @@
     - install libraries in PyCharm (administrative)
         - install scipy via Conda Package Manager
         - install scipy via Pip Package Manager
-    
-    
+        
+1. 
+Matplotlib Tutorials: [https://matplotlib.org/tutorials/index.html]:https://matplotlib.org/tutorials/index.html
+
+SciPy Tutorials
+[https://docs.scipy.org/doc/scipy/reference/tutorial/]:https://docs.scipy.org/doc/scipy/reference/tutorial/
+
+h5py Tutorials
+http://docs.h5py.org/en/stable/quick.html
