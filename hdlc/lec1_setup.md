@@ -63,7 +63,9 @@
     - run the python code in Anaconda Prompt
     - run the python code in PyCharm
     - exectue line in PyCharm
-    
+
+1. Create a New Project in PyCharm (administrative) based on New Conda Environment
+
 1. Install PyThon Libraries: matplotlib, scipy, h5py
     - install libraries in Anaconda Prompt (administrative)
         ```bash
