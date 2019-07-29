@@ -50,8 +50,8 @@
             print('The sum of {} and {} is {}'.format(n1, n2, sum))
             print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
             ```
-        - run a python file (ex_sum.py) via **Anaconda Prompt (administrative)**
-            ```text
+        - run a python file (ex_sum.py) via **Anaconda Prompt**
+            ```bash
             python c:\PycharmProjects\test\sum.py
             ```
             
@@ -74,11 +74,11 @@
         - Ctrl + Shift + F10
         - Mouse Right Click => Run 'ex_sum.py'
     - exectue selected lines in console via **PyCharm**
-        - Select codes => Alt + Shift + e
-        - Mouse Right Click => Exectue selection in console
+        - Alt + Shift + e
+        - Mouse Right Click => Click 'Exectue Selection in Console'
     - exectue a line in console via **PyCharm**
         - Alt + Shift + e
-        - Mouse Right Click => Exectue selection in console)
+        - Mouse Right Click => Click 'Exectue Line in Console'
     - exectue additional line and check variables in console mode via **PyCharm**
         ```python
         n1 = 1.2
