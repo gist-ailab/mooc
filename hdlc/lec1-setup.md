@@ -44,7 +44,7 @@
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
     - save and run python code (sum.py) via **Anaconda Prompt**
-        - create a python file (c:\PycharmProjects\test\sum.py) containing the python code below
+        - create a python file (c:\Projects\test\sum.py) containing the python code below
             ```python
             n1, n2 = 1.7, 1.5
             sum = n1 + n2
@@ -56,7 +56,7 @@
             ```
         - run a python file (ex_sum.py) via **Anaconda Prompt**
             ```bash
-            python c:\PycharmProjects\test\sum.py
+            python c:\Projects\test\sum.py
             ```
             
 1. Install **PyCharm (administrative mode)**
