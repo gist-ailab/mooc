@@ -85,8 +85,8 @@
     - exectue additional line and check variables in console mode via **PyCharm**
         ```python
         n1 = 1.2
-        square_1 = n1**2
-        square_2 = n1*n1
+        square_1 = n1*n1
+        square_2 = n1**2
         ```
     
 1. Install PyThon Libraries: matplotlib, scipy, h5py
