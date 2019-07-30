@@ -182,6 +182,7 @@
         ```
         
 1. Tutorials
+    - PyThon Tutorials (https://docs.python.org/3/tutorial/)
     - Matplotlib Tutorials (https://matplotlib.org/tutorials/index.html)
     - SciPy Tutorials (https://docs.scipy.org/doc/scipy/reference/tutorial/)
     - h5py Tutorials (http://docs.h5py.org/en/stable/quick.html)
