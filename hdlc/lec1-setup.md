@@ -95,10 +95,13 @@
     - install libraries via **Anaconda Prompt**
         ```bash
         activate practice
+        conda list
         conda install matplotlib scipy
+        conda list
         pip install h5py
+        conda list
         pip uninstall h5py
-        conda uninstall h5py
+        conda list
         ```
     - install libraries via **PyCharm**
         - install and remove h5py via Pip Package Manager
