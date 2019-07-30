@@ -88,6 +88,8 @@
         square = n1*n1
         print(square.__str__())
         ```
+    - rename variable name via **PyCharm**
+        - Shift + F6
     
 1. Install PyThon Libraries: matplotlib, scipy, h5py
     - install libraries via **Anaconda Prompt**
