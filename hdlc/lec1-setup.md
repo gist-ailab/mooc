@@ -51,6 +51,8 @@
             print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
             print('The sum of {} and {} is {}'.format(n1, n2, sum))
             print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
+            exit
+            exit()
             ```
         - run a python file (ex_sum.py) via **Anaconda Prompt**
             ```bash
