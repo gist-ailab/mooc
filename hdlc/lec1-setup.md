@@ -162,7 +162,7 @@
         ```        
         
 1. Install PyTorch
-    - run (ex_torch.py) via **PyCharm**
+    - create and run (ex_torch.py) via **PyCharm**
         ```python
         import torch
         print(torch.__version__)
@@ -174,7 +174,7 @@
         activate tc
         conda install pytorch-cpu torchvision-cpu -c pytorch
         ```    
-    - create and run (ex_torch.py) via **PyCharm**
+    - run (ex_torch.py) via **PyCharm**
         ```python
         import torch
         print(torch.__version__)
