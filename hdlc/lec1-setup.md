@@ -161,8 +161,14 @@
         plt.show()
         ```        
         
-1. Create a New Project (PyTorch) based on a New Conda Environment (tc) via **PyCharm**
-    - install matplotlib, scipy, h5py via **PyCharm**    
+1. Install PyTorch
+    - run (ex_torch.py) via **PyCharm**
+        ```python
+        import torch
+        print(torch.__version__)
+        print(torch.tensor([[1., -1.], [1., -1.]]))
+        ```
+    - create a New Conda Environment (tc) via **Anaconda Prompt**
     - install PyThon, PyTorch via **Anaconda Prompt**
         ```bash
         activate tc
