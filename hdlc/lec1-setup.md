@@ -182,6 +182,8 @@
         ```
         
 1. Tutorials
+    - Anaconda Tutorials (https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
+    - PyCharm Tutorials (https://www.jetbrains.com/help/pycharm/quick-start-guide.html)
     - PyThon Tutorials (https://docs.python.org/3/tutorial/)
     - Matplotlib Tutorials (https://matplotlib.org/tutorials/index.html)
     - SciPy Tutorials (https://docs.scipy.org/doc/scipy/reference/tutorial/)
