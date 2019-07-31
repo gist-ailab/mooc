@@ -76,12 +76,12 @@
     - run the python code via **PyCharm**
         - Ctrl + Shift + F10
         - Mouse Right Click => Run 'ex_sum.py'
-    - execute selected lines in console via **PyCharm**
+    - uute selected lines in console via **PyCharm**
         - Alt + Shift + e
-        - Mouse Right Click => Click 'Exectue Selection in Console'
+        - Mouse Right Click => Click 'Execute Selection in Console'
     - execute a line in console via **PyCharm**
         - Alt + Shift + e
-        - Mouse Right Click => Click 'Exectue Line in Console'
+        - Mouse Right Click => Click 'Execute Line in Console'
     - execute additional line and check variables in console mode via **PyCharm**
         ```python
         n1 = 1.2
