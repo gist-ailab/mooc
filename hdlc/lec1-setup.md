@@ -76,13 +76,13 @@
     - run the python code via **PyCharm**
         - Ctrl + Shift + F10
         - Mouse Right Click => Run 'ex_sum.py'
-    - exectue selected lines in console via **PyCharm**
+    - execute selected lines in console via **PyCharm**
         - Alt + Shift + e
         - Mouse Right Click => Click 'Exectue Selection in Console'
-    - exectue a line in console via **PyCharm**
+    - execute a line in console via **PyCharm**
         - Alt + Shift + e
         - Mouse Right Click => Click 'Exectue Line in Console'
-    - exectue additional line and check variables in console mode via **PyCharm**
+    - execute additional line and check variables in console mode via **PyCharm**
         ```python
         n1 = 1.2
         square = n1*n1
