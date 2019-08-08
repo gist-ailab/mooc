@@ -1,72 +1,21 @@
 1. Download Setup Files
-    - PyThon: Anaconda Windows 64 bit Version (https://www.anaconda.com/)
-    - PyCharm: Windows Community Version (https://www.jetbrains.com/pycharm/)
-    - PyTorch: PyTorch 1.1 CPU Version (https://pytorch.org/)
+    - PyThon: Miniconda Windows 64 bit Version (https://docs.conda.io/en/latest/miniconda.html)
+    - PyCharm: Windows Community Version (https://www.jetbrains.com/pycharm/download/#section=windows)
 
+1. Install **Miniconda (for all yours in administrative mode)**    
+    - check add PATH 
 
-1. Install **Anaconda Prompt (administrative mode)**
-    - set Anaconda Prompt (administrative mode) as default    
+1. Install **PyCharm**
+    - check create Shortcut, extension
 
-1. Create an Environment via **Anaconda Prompt**
-     ```bash
-    conda env list
-    conda create --name test
-    conda env list
-    activate test
-    deactivate
-    conda env remove -n test
-    ```
+1. Run **PyCharm (in administrative mode)**
 
-1. Install PyThon in Anaconda Environment via **Anaconda Prompt**
-    ```bash
-    conda create -n practice
-    activate practice
-    conda list
-    conda install python
-    conda list
-    deactivate
-    exit
-    ```
-
-1. Run PyThon Code via **Anaconda Prompt**
-    - run python code in console mode via **Anaconda Prompt**
-        ```bash
-        activate practice
-        python
-        ```
-        
-        ```python
-        print('hello world')
-        n1, n2 = 1.7, 1.5
-        sum = n1 + n2
-        print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
-        print('The sum of {} and {} is {}'.format(n1, n2, sum))
-        print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
-        ```
-    - save and run python code (sum.py) via **Anaconda Prompt**
-        - create a python file (c:\Projects\test\sum.py) containing the python code below
-            ```python
-            n1, n2 = 1.7, 1.5
-            sum = n1 + n2
-            print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
-            print('The sum of {} and {} is {}'.format(n1, n2, sum))
-            print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
-            exit
-            exit()
-            ```
-        - run a python file (ex_sum.py) via **Anaconda Prompt**
-            ```bash
-            python c:\Projects\test\sum.py
-            ```
-            
-1. Install **PyCharm (administrative mode)**
-    - set PyCharm (administrative mode) as default    
-
-1. Create a New Project (example) based on Conda Environment (practice) via **PyCharm**
+1. Create a New Project "example" based on a New Conda Environment "pytorch" via **PyCharm**
 
 1. Run PyThon Code in **PyCharm**
-    - create a python file (ex_sum.py)
+    - create a python file (sum.py)
         ```python
+        print('example of sum')
         n1, n2 = 1.7, 1.5
         sum = n1 + n2
         print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
@@ -75,7 +24,7 @@
         ```
     - run the python code via **PyCharm**
         - Ctrl + Shift + F10
-        - Mouse Right Click => Run 'ex_sum.py'
+        - Mouse Right Click => Run 'sum.py'
     - uute selected lines in console via **PyCharm**
         - Alt + Shift + e
         - Mouse Right Click => Click 'Execute Selection in Console'
@@ -91,23 +40,8 @@
     - rename variable name via **PyCharm**
         - Shift + F6
     
-1. Install PyThon Libraries: matplotlib, scipy, h5py
-    - install libraries via **Anaconda Prompt**
-        ```bash
-        activate practice
-        conda list
-        conda install matplotlib scipy
-        conda list
-        pip install h5py
-        conda list
-        pip uninstall h5py
-        conda list
-        ```
-    - install libraries via **PyCharm**
-        - install and remove h5py via Pip Package Manager
-        - install h5py via Conda Package Manager
-            
-    - create and run a python file (ex_plot.py)
+1. Install PyThon Libraries: matplotlib, scipy, h5py          
+    - create and run a python file: `ex_plot.py`
         ```python
         import numpy as np
         import matplotlib.pyplot as plt
@@ -132,8 +66,9 @@
         axis.grid()
         plt.show()
         ```        
-   
-    - create and run a python file (ex_fft.py)
+    - install libraries via **PyCharm**
+    - retry running the python file: `ex_plot.py`
+    - create and run a python file: `ex_fft.py`
         ```python
         import os, h5py
         import numpy as np
@@ -168,18 +103,8 @@
         print(torch.__version__)
         print(torch.tensor([[1., -1.], [1., -1.]]))
         ```
-    - create a New Conda Environment (tc) via **Anaconda Prompt**
-    - install PyThon, PyTorch via **Anaconda Prompt**
-        ```bash
-        activate tc
-        conda install pytorch-cpu torchvision-cpu -c pytorch
-        ```    
+    - create a New Conda Environment (tc) via **PyCharm**
     - run (ex_torch.py) via **PyCharm**
-        ```python
-        import torch
-        print(torch.__version__)
-        print(torch.tensor([[1., -1.], [1., -1.]]))
-        ```
         
 1. Tutorials
     - Anaconda Tutorials (https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
