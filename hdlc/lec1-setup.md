@@ -24,7 +24,7 @@
         ```
     - run the python code `ex_sum.py`
         - `Ctrl` + `Shift` + `F10`
-        - `Mouse Right Click` => Run `ex_sum.py`
+        - `Mouse Right Click` => Run `*ex_sum.py*`
     - execute selected lines in console mode
         - `Alt` + `Shift` + `E key`
         - `Mouse Right Click` => Click `Execute Selection in Console`
@@ -71,8 +71,8 @@
         plt.show()
         ```        
     - install libraries: `matplotlib`, `h5py`, `scipy`
-    - retry running the python file: `ex_plot.py`
-    - create and run a python file: `ex_fft.py`
+    - retry running the python file: `*ex_plot.py*`
+    - create and run a python file: `*ex_fft.py*`
         ```python
         import os, h5py
         import numpy as np
@@ -101,7 +101,7 @@
         ```        
         
 1. Install PyTorch
-    - create and run a python file: `ex_torch.py`
+    - create and run a python file: `*ex_torch.py*`
         ```python
         import torch
         print(torch.__version__)
@@ -110,7 +110,7 @@
     - check NVIDIA Graphic Card and CUDA
     - add repository url: `pytorch`
     - install library: `torchvision` or `torchvision-cpu`
-    - retry runnning the python file: `ex_torch.py`
+    - retry runnning the python file: `*ex_torch.py*`
         
 1. Tutorials
     - Anaconda Tutorials (https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
