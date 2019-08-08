@@ -13,7 +13,7 @@
 1. Create a New Project "example" based on a New Conda Environment "pytorch" via **PyCharm**
 
 1. Run PyThon Code in **PyCharm**
-    - create a python file (sum.py)
+    - create a python file `ex_sum.py`
         ```python
         print('example of sum')
         n1, n2 = 1.7, 1.5
@@ -22,16 +22,16 @@
         print('The sum of {} and {} is {}'.format(n1, n2, sum))
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
-    - run the python code via **PyCharm**
+    - run the python code `ex_sum.py`
         - Ctrl + Shift + F10
-        - Mouse Right Click => Run 'sum.py'
-    - uute selected lines in console via **PyCharm**
+        - Mouse Right Click => Run `ex_sum.py`
+    - execute selected lines in console mode
         - Alt + Shift + e
-        - Mouse Right Click => Click 'Execute Selection in Console'
-    - execute a line in console via **PyCharm**
+        - Mouse Right Click => Click `Execute Selection in Console`
+    - execute a line in console mode
         - Alt + Shift + e
-        - Mouse Right Click => Click 'Execute Line in Console'
-    - execute additional line and check variables in console mode via **PyCharm**
+        - Mouse Right Click => Click `Execute Line in Console`
+    - execute additional line and check variables in console mode
         ```python
         n1 = 1.2
         square = n1*n1
@@ -41,7 +41,7 @@
         - Shift + F6
     
 1. Install PyThon Libraries: matplotlib, scipy, h5py          
-    - create and run a python file: `ex_plot.py`
+    - create and run a python file `ex_plot.py`
         ```python
         import numpy as np
         import matplotlib.pyplot as plt
@@ -66,7 +66,7 @@
         axis.grid()
         plt.show()
         ```        
-    - install libraries via **PyCharm**
+    - install libraries: `matplotlib`, `scipy`, `h5py`
     - retry running the python file: `ex_plot.py`
     - create and run a python file: `ex_fft.py`
         ```python
@@ -97,14 +97,16 @@
         ```        
         
 1. Install PyTorch
-    - create and run (ex_torch.py) via **PyCharm**
+    - create and run a python file: `ex_torch.py`
         ```python
         import torch
         print(torch.__version__)
         print(torch.tensor([[1., -1.], [1., -1.]]))
         ```
-    - create a New Conda Environment (tc) via **PyCharm**
-    - run (ex_torch.py) via **PyCharm**
+    - check NVIDIA Graphic Card and CUDA
+    - add repository url: `pytorch`
+    - install library: `torchvision` or `torchvision-cpu`
+    - retry runnning the python file: `ex_torch.py`
         
 1. Tutorials
     - Anaconda Tutorials (https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
