@@ -16,8 +16,8 @@
     - create a python file `ex_sum.py`
         ```python
         print('example of sum')
-        n1, n2 = 1.7, 1.5
-        sum = n1 + n2
+        n1,n2=1.7,1.5
+        sum=n1+ n2
         print('The sum of {0} and {1} is {2}'.format(n1, n2, sum))
         print('The sum of {} and {} is {}'.format(n1, n2, sum))
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
@@ -26,20 +26,24 @@
         - Ctrl + Shift + F10
         - Mouse Right Click => Run `ex_sum.py`
     - execute selected lines in console mode
-        - Alt + Shift + e
+        - Alt + Shift + E key
         - Mouse Right Click => Click `Execute Selection in Console`
     - execute a line in console mode
-        - Alt + Shift + e
+        - Alt + Shift + E key
         - Mouse Right Click => Click `Execute Line in Console`
     - execute additional line and check variables in console mode
         ```python
         n1 = 1.2
-        square = n1*n1
+        square = n1 * n1
         print(square.__str__())
         ```
-    - rename variable name via **PyCharm**
-        - Shift + F6
-    
+    - rename variable name
+        - Shift + F6        
+    - switch the code with comments
+        - Ctrl + / key
+    - reformat the code
+        - Ctrl + Alt + L key
+        
 1. Install PyThon Libraries: matplotlib, h5py, scipy      
     - create and run a python file `ex_plot.py`
         ```python
