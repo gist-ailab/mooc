@@ -10,9 +10,9 @@
 
 1. Run **PyCharm (in administrative mode)**
 
-1. Create a New Project "example" based on a New Conda Environment "pytorch" via **PyCharm**
+1. Create a New Project `example` based on a New Conda Environment `tc` via
 
-1. Run PyThon Code in **PyCharm**
+1. Run PyThon Code
     - create a python file `ex_sum.py`
         ```python
         print('example of sum')
