@@ -2,13 +2,13 @@
     - PyThon: Miniconda Windows 64 bit Version (https://docs.conda.io/en/latest/miniconda.html)
     - PyCharm: Windows Community Version (https://www.jetbrains.com/pycharm/download/#section=windows)
 
-1. Install **Miniconda (for all yours in administrative mode)**    
-    - check add PATH 
+1. Install **Miniconda (for All Uours in Administrative Mode)** [about 3 minutes]
+    - check `Add Anaconda to the system PATH environment variable`
 
 1. Install **PyCharm**
-    - check create Shortcut, extension
+    - check `Create Desktop Shortcut`, `Create Associations`
 
-1. Run **PyCharm (in administrative mode)**
+1. Run **PyCharm (in Administrative Mode)**
 
 1. Create a New Project `example` based on a New Conda Environment `tc` via
 
@@ -23,28 +23,28 @@
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
     - run the python code `ex_sum.py`
-        - Ctrl + Shift + F10
-        - Mouse Right Click => Run `ex_sum.py`
+        - `Ctrl` + `Shift` + `F10`
+        - `Mouse Right Click` => Run `ex_sum.py`
     - execute selected lines in console mode
-        - Alt + Shift + E key
-        - Mouse Right Click => Click `Execute Selection in Console`
+        - `Alt` + `Shift` + `E key`
+        - `Mouse Right Click` => Click `Execute Selection in Console`
     - execute a line in console mode
-        - Alt + Shift + E key
-        - Mouse Right Click => Click `Execute Line in Console`
+        - `Alt` + `Shift` + `E key`
+        - `Mouse Right Click` => Click `Execute Line in Console`
     - execute additional line and check variables in console mode
         ```python
-        n1 = 1.2
-        square = n1 * n1
+        n1=1.2
+        square=n1*n1
         print(square.__str__())
         ```
     - rename variable name
-        - Shift + F6        
+        - `Shift` + `F6`        
     - switch the code with comments
-        - Ctrl + / key
+        - `Ctrl` + `/ key`
     - reformat the code
-        - Ctrl + Alt + L key
+        - `Ctrl` + `Alt` + `L key`
         
-1. Install PyThon Libraries: matplotlib, h5py, scipy      
+1. Install PyThon Libraries: `matplotlib`, `h5py`, `scipy`    
     - create and run a python file `ex_plot.py`
         ```python
         import numpy as np
