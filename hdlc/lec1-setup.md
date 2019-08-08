@@ -40,7 +40,7 @@
     - rename variable name via **PyCharm**
         - Shift + F6
     
-1. Install PyThon Libraries: matplotlib, scipy, h5py          
+1. Install PyThon Libraries: matplotlib, h5py, scipy      
     - create and run a python file `ex_plot.py`
         ```python
         import numpy as np
@@ -66,7 +66,7 @@
         axis.grid()
         plt.show()
         ```        
-    - install libraries: `matplotlib`, `scipy`, `h5py`
+    - install libraries: `matplotlib`, `h5py`, `scipy`
     - retry running the python file: `ex_plot.py`
     - create and run a python file: `ex_fft.py`
         ```python
