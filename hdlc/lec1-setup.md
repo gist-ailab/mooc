@@ -5,7 +5,7 @@
 1. Install **Miniconda (for All Uours in Administrative Mode)** [about 3 minutes]
     - check `Add Anaconda to the system PATH environment variable`
 
-1. Install **PyCharm**
+1. Install **PyCharm** [about 3 minutes]
     - check `Create Desktop Shortcut`, `Create Associations`
 
 1. Set and run **PyCharm (in Administrative Mode)**
@@ -72,7 +72,7 @@
         axis.grid()
         plt.show()
         ```        
-    - install libraries: `matplotlib`, `h5py`, `scipy`
+    - install libraries: `matplotlib`, `h5py`, `scipy` [about 3 minutes]
     - retry running the python file: `ex_plot.py`
     - create and run a python file: `ex_fft.py`
         ```python
@@ -116,7 +116,7 @@
         ```        
     - check NVIDIA Graphic Card and CUDA
     - add repository url: `pytorch`
-    - install library: `torchvision` for NVIDIA GPU users or `torchvision-cpu` for the others
+    - install library: `torchvision` for NVIDIA GPU users or `torchvision-cpu` for the others [about 5 minutes]
     - retry runnning the python file: `ex_torch.py`
             
 1. Tutorials
