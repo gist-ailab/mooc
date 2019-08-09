@@ -108,22 +108,17 @@
         ```python
         import torch
         print(torch.__version__)
-        print(torch.tensor([[1., -1.], [1., -1.]]))
-        ```
+        a = torch.tensor([[1., -1.], [1., -1.]])
+        print(a)
+        print(torch.cuda.is_available())
+        if torch.cuda.is_available() == True:
+        print(a.cuda())
+        ```        
     - check NVIDIA Graphic Card and CUDA
     - add repository url: `pytorch`
     - install library: `torchvision` for NVIDIA GPU users or `torchvision-cpu` for the others
     - retry runnning the python file: `ex_torch.py`
-    - create and run a python file: `ex_torch.py`
-            ```python
-            import torch
-            print(torch.__version__)
-            a = torch.tensor([[1., -1.], [1., -1.]])
-            print(a)
-            print(torch.cuda.is_available())
-            if torch.cuda.is_available() == True:
-                print(a.cuda())
-            ```        
+            
 1. Tutorials
     - Anaconda Tutorials (https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
     - PyCharm Tutorials (https://www.jetbrains.com/help/pycharm/quick-start-guide.html)
