@@ -1,6 +1,6 @@
 1. Download Setup Files
-    - PyThon: Miniconda Windows 64 bit Version (https://docs.conda.io/en/latest/miniconda.html)
-    - PyCharm: Windows Community Version (https://www.jetbrains.com/pycharm/download/#section=windows)
+    - Miniconda Windows 64 bit Version (https://docs.conda.io/en/latest/miniconda.html)
+    - PyCharm Windows Community Version (https://www.jetbrains.com/pycharm/download/#section=windows)
 
 1. Install **Miniconda (for All Uours in Administrative Mode)** [about 3 minutes]
     - check `Add Anaconda to the system PATH environment variable`
@@ -10,7 +10,7 @@
 
 1. Run **PyCharm (in Administrative Mode)**
 
-1. Create a New Project `example` based on a New Conda Environment `tc` via
+1. Create a New Project `example` based on a New Conda Environment `tc`
 
 1. Run PyThon Code
     - create a python file `ex_sum.py`
@@ -23,7 +23,7 @@
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
     - run the python code `ex_sum.py`
-        - `Mouse Right Click` => Run `ex_sum.py`
+        - `Mouse Right Click` => Click `Run ex_sum.py`
         - `Ctrl` + `Shift` + `F10`        
     - execute selected lines in console mode
         - `Mouse Right Click` => Click `Execute Selection in Console`
@@ -103,6 +103,7 @@
         ```        
         
 1. Install PyTorch
+    - create new project `DeepLearning` based on a New Conda Environment `tc`
     - create and run a python file: `ex_torch.py`
         ```python
         import torch
@@ -111,9 +112,14 @@
         ```
     - check NVIDIA Graphic Card and CUDA
     - add repository url: `pytorch`
-    - install library: `torchvision` or `torchvision-cpu`
+    - install library: `torchvision` for NVIDIA GPU users or `torchvision-cpu` for the others
     - retry runnning the python file: `ex_torch.py`
-        
+    - create and run a python file: `ex_torch.py`
+            ```python
+            import torch
+            print(torch.__version__)
+            print(torch.tensor([[1., -1.], [1., -1.]]))
+            ```        
 1. Tutorials
     - Anaconda Tutorials (https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
     - PyCharm Tutorials (https://www.jetbrains.com/help/pycharm/quick-start-guide.html)
