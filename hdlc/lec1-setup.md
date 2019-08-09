@@ -23,14 +23,13 @@
         print('The sum of {:.0f} and {:05.2f} is {:5.2f}'.format(n1, n2, sum))
         ```
     - run the python code `ex_sum.py`
-        - `Ctrl` + `Shift` + `F10`
         - `Mouse Right Click` => Run `ex_sum.py`
+        - `Ctrl` + `Shift` + `F10`        
     - execute selected lines in console mode
-        - `Alt` + `Shift` + `E key`
         - `Mouse Right Click` => Click `Execute Selection in Console`
+        - `Alt` + `Shift` + `E key`        
     - execute a line in console mode
-        - `Alt` + `Shift` + `E key`
-        - `Mouse Right Click` => Click `Execute Line in Console`
+        - `Alt` + `Shift` + `E key`        
     - execute additional line and check variables in console mode
         ```python
         n1=1.2
@@ -38,17 +37,20 @@
         print(square.__str__())
         ```
     - rename variable name
+        - `Mouse Right Click` => Click `Refactor` => Click `Rename` => `Execute Line in Console`
         - `Shift` + `F6`        
-    - switch the code with comments
-        - `Ctrl` + `/ key`
     - reformat the code
+        - Click `Code` in menu bar => Click `Reformat Code`
         - `Ctrl` + `Alt` + `L key`
+    - switch the code with comments
+        - Add `#` in front of the line
+        - `Ctrl` + `/ key`
         
 1. Install PyThon Libraries: `matplotlib`, `h5py`, `scipy`    
     - create and run a python file `ex_plot.py`
         ```python
-        import numpy as np
         import matplotlib.pyplot as plt
+        import numpy as np
         import h5py
             
         f = [3, 5]  # Hz
@@ -74,9 +76,9 @@
     - retry running the python file: `ex_plot.py`
     - create and run a python file: `ex_fft.py`
         ```python
-        import os, h5py
-        import numpy as np
         import matplotlib.pyplot as plt
+        import numpy as np
+        import os, h5py
         from scipy import fftpack
 
         data_file = 'data.h5'
