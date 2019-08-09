@@ -112,7 +112,7 @@
         print(a)
         print(torch.cuda.is_available())
         if torch.cuda.is_available() == True:
-        print(a.cuda())
+            print(a.cuda())
         ```        
     - check NVIDIA Graphic Card and CUDA
     - add repository url: `pytorch`
