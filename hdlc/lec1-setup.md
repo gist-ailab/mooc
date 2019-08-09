@@ -1,6 +1,6 @@
 1. Download Setup Files
-    - Miniconda Windows 64 bit Version (https://docs.conda.io/en/latest/miniconda.html)
-    - PyCharm Windows Community Version (https://www.jetbrains.com/pycharm/download/#section=windows)
+    - Miniconda (Windows 64 bit) (https://docs.conda.io/en/latest/miniconda.html)
+    - PyCharm Community (Windows) (https://www.jetbrains.com/pycharm/download/#section=windows)
 
 1. Install **Miniconda (for All Uours in Administrative Mode)** [about 3 minutes]
     - check `Add Anaconda to the system PATH environment variable`
@@ -8,7 +8,7 @@
 1. Install **PyCharm**
     - check `Create Desktop Shortcut`, `Create Associations`
 
-1. Run **PyCharm (in Administrative Mode)**
+1. Set and run **PyCharm (in Administrative Mode)**
 
 1. Create a New Project `example` based on a New Conda Environment `tc`
 
@@ -103,7 +103,7 @@
         ```        
         
 1. Install PyTorch
-    - create new project `DeepLearning` based on a New Conda Environment `tc`
+    - create new project `DeepLearning` based on the Conda Environment `tc`
     - create and run a python file: `ex_torch.py`
         ```python
         import torch
