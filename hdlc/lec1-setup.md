@@ -118,7 +118,11 @@
             ```python
             import torch
             print(torch.__version__)
-            print(torch.tensor([[1., -1.], [1., -1.]]))
+            a = torch.tensor([[1., -1.], [1., -1.]])
+            print(a)
+            print(torch.cuda.is_available())
+            if torch.cuda.is_available() == True:
+                print(a.cuda())
             ```        
 1. Tutorials
     - Anaconda Tutorials (https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
