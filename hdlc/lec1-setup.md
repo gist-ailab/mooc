@@ -12,7 +12,7 @@
 
 1. Create a New Project `example` based on a New Conda Environment `tc`
 
-1. Run PyThon Code
+1. Run Python Code
     - create a python file `ex_sum.py`
         ```python
         print('example of sum')
