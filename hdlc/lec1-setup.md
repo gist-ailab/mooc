@@ -46,7 +46,7 @@
         - Add `#` in front of the line
         - `Ctrl` + `/ key`
         
-1. Install PyThon Libraries: `matplotlib`, `h5py`, `scipy`    
+1. Install Python Libraries: `matplotlib`, `h5py`, `scipy`    
     - create and run a python file `ex_plot.py`
         ```python
         import matplotlib.pyplot as plt
