@@ -38,7 +38,7 @@
         print(square.__str__())
         ```
     - rename variable name
-        - `Mouse Right Click` => Click `Refactor` => Click `Rename`
+        - `Mouse Right Click` => Click `Refactor` => Click `Rename....`
         - `Shift` + `F6`        
     - reformat the code
         - Click `Code` in menu bar => Click `Reformat Code`
