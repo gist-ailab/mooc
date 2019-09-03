@@ -115,7 +115,7 @@
         if torch.cuda.is_available() == True:
             print(a.cuda())
         ```        
-    - check NVIDIA Graphic Card and CUDA
+    - check NVIDIA Graphic Card (GPU) to use CUDA
     - add repository url: `pytorch`
     - install library: `torchvision` for NVIDIA GPU users or `torchvision-cpu` for the others [about 5 minutes]
     - retry runnning the python file: `ex_torch.py`
