@@ -2,7 +2,7 @@
     - Miniconda (Windows 64 bit) (https://docs.conda.io/en/latest/miniconda.html)
     - PyCharm Community (Windows) (https://www.jetbrains.com/pycharm/download/#section=windows)
 
-1. Install **Miniconda (for All Uours in Administrative Mode)** [about 3 minutes]
+1. Install **Miniconda (for All Users in Administrative Mode)** [about 3 minutes]
     - check `Add Anaconda to the system PATH environment variable`
 
 1. Install **PyCharm** [about 3 minutes]
