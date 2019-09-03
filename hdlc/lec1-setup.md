@@ -26,9 +26,10 @@
         - `Mouse Right Click` => Click `Run ex_sum.py`
         - `Ctrl` + `Shift` + `F10`        
     - execute selected lines in console mode
-        - `Mouse Right Click` => Click `Execute Selection in Console`
+        - `Mouse Right Click` => Click `Execute Selection in Python Console`
         - `Alt` + `Shift` + `E key`        
     - execute a line in console mode
+        - `Mouse Right Click` => Click `Execute Line in Python Console`
         - `Alt` + `Shift` + `E key`        
     - execute additional line and check variables in console mode
         ```python
